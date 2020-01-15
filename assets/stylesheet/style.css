@@ -276,4 +276,42 @@ img {
 }
 .container-2 .circle {
   margin: 12px;
+  margin-top: 24px;
+}
+.copyright {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* responsive */
+@media all and (max-width: 760px) {
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 24px 0;
+  }
+  .col-3 {
+    width: 100%;
+    margin-bottom: 24px;
+    background: #2b2c32;
+    text-align: center;
+  }
+  .circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    font-size: 18px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .circle-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fab,
+  .far {
+    color: aqua;
+  }
 }
